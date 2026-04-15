@@ -1,1 +1,1 @@
-"""Claim processing pipeline package.""
+"""Claim processing pipeline package."""
