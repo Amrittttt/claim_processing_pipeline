@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+python-multipart
+langgraph
+langchain
+langchain-openai
+pydantic
+pypdf
+pymupdf
+rapidocr-onnxruntime
