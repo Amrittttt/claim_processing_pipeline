@@ -75,7 +75,7 @@ Form data:
 - `claim_id` (string)
 - `file` (PDF)
 
-### Test via Swagger UI (recommended for GitHub users)
+### Test via Swagger UI
 
 If you cloned this repository and do not have the original sample PDF, use your own claim PDF:
 
@@ -98,7 +98,6 @@ curl -X POST "http://localhost:8000/api/process" \
   -F "file=@/absolute/path/to/your-claim.pdf"
 ```
 
-> Note: The assignment sample PDF is not included in this public repo. Use any compatible claim PDF for testing.
 
 Example response shape:
 
@@ -123,11 +122,4 @@ Example response shape:
 }
 ```
 
-## Notes for Submission
-- Record a short Loom/video showing:
-  - LangGraph node flow
-  - Segregator behavior
-  - Page-level routing to agents
-  - Final aggregated output
-- Push this folder to your GitHub repo and share it with the assignment email.
 
